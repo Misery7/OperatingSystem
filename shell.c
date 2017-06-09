@@ -8,8 +8,8 @@
 #include <stdlib.h>
 #include <fcntl.h>
 
-int screen;
-int keyboard;
+int screen=0;
+int keyboard=0;
 
 int _echo(char param[][10], int n)
 {
